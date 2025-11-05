@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar Visita | Inmobiliaria Cartagena del Sol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Encabezado con navegación -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">Cartagena del Sol</h1>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Inicio</a>
+                    <a href="index.html#propiedades" class="nav-link">Propiedades</a>
+                    <a href="agendar.html" class="nav-link active">Agendar Visita</a>
+                </nav>
+                <button class="menu-toggle" aria-label="Menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenido del formulario -->
+    <main class="schedule-page">
+        <div class="container">
+            <div class="schedule-content">
+                <h2 class="page-title">Agendar Visita</h2>
+                <p class="page-subtitle">Completa el formulario y nos pondremos en contacto contigo para confirmar la cita</p>
+
+                <form id="scheduleForm" class="schedule-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nombre">Nombre completo *</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono *</label>
+                            <input type="tel" id="telefono" name="telefono" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Correo electrónico *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="propiedad">Propiedad de interés *</label>
+                            <select id="propiedad" name="propiedad" required>
+                                <option value="">Seleccione una propiedad</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fecha">Fecha preferida *</label>
+                            <input type="date" id="fecha" name="fecha" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="hora">Hora preferida *</label>
+                            <select id="hora" name="hora" required>
+                                <option value="">Seleccione una hora</option>
+                                <option value="09:00">9:00 AM</option>
+                                <option value="10:00">10:00 AM</option>
+                                <option value="11:00">11:00 AM</option>
+                                <option value="12:00">12:00 PM</option>
+                                <option value="14:00">2:00 PM</option>
+                                <option value="15:00">3:00 PM</option>
+                                <option value="16:00">4:00 PM</option>
+                                <option value="17:00">5:00 PM</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje adicional (opcional)</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" placeholder="¿Alguna pregunta o solicitud especial?"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-large">Agendar Visita</button>
+                </form>
+
+                <!-- Mensaje de confirmación (inicialmente oculto) -->
+                <div id="confirmationMessage" class="confirmation-message" style="display: none;">
+                    <div class="confirmation-icon">✓</div>
+                    <h3>¡Visita agendada exitosamente!</h3>
+                    <p>Recibirás un correo de confirmación en breve. Nuestro equipo se pondrá en contacto contigo para confirmar los detalles.</p>
+                    <a href="index.html" class="btn btn-secondary">Volver al inicio</a>
+                </div>
+            </div>
+
+            <!-- Información de contacto -->
+            <div class="contact-info">
+                <h3>¿Prefieres contactarnos directamente?</h3>
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <span class="contact-icon">📱</span>
+                        <div>
+                            <strong>Teléfono</strong>
+                            <p>+57 300 123 4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <span class="contact-icon">📧</span>
+                        <div>
+                            <strong>Email</strong>
+                            <p>info@cartagenasol.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <span class="contact-icon">💬</span>
+                        <div>
+                            <strong>WhatsApp</strong>
+                            <p>+57 300 123 4567</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Cartagena del Sol</h3>
+                    <p>Tu aliado inmobiliario en Cartagena de Indias</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>📧 info@cartagenasol.com</p>
+                    <p>📱 +57 300 123 4567</p>
+                    <p>📍 Centro Histórico, Cartagena</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Horario de Atención</h4>
+                    <p>Lunes a Viernes: 9:00 - 18:00</p>
+                    <p>Sábados: 9:00 - 14:00</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Inmobiliaria Cartagena del Sol. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

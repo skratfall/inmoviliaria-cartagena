@@ -3,8 +3,9 @@
 Sitio web inmobiliario para mostrar propiedades destacadas en Cartagena de Indias, consultar el detalle de cada inmueble y agendar visitas desde un formulario sencillo.
 
 El proyecto esta construido como una aplicacion web estatica con HTML, CSS y JavaScript, usando Vite como servidor de desarrollo.
+
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Bottom Line" width="100%" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Bottom Line" width="100%" />
 </div>
 
 
@@ -20,8 +21,9 @@ La experiencia incluye:
 - Formulario para agendar visitas con seleccion de propiedad, fecha y hora.
 - Diseno responsive con menu movil.
 - Imagenes externas cargadas desde Pexels.
+
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Bottom Line" width="100%" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Bottom Line" width="100%" />
 </div>
 
 
@@ -31,8 +33,9 @@ La experiencia incluye:
 - **CSS3** para estilos, diseno responsive y componentes visuales.
 - **JavaScript** para renderizado dinamico, navegacion, galeria y formulario.
 - **Vite** como entorno de desarrollo y build.
+
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Bottom Line" width="100%" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Bottom Line" width="100%" />
 </div>
 
 
@@ -50,8 +53,9 @@ inmoviliaria-cartagena/
 |-- public/             # Archivos publicos
 `-- README.md           # Documentacion del proyecto
 ```
+
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Bottom Line" width="100%" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Bottom Line" width="100%" />
 </div>
 
 
@@ -72,8 +76,9 @@ La pagina principal carga las propiedades desde el arreglo `properties` definido
 - Descripcion.
 - Caracteristicas.
 - Tipo de operacion: venta o arriendo.
+
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Bottom Line" width="100%" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Bottom Line" width="100%" />
 </div>
 
 
@@ -88,8 +93,9 @@ Al seleccionar una propiedad, el usuario es llevado a `detalle.html?id=ID`, dond
 - Precio.
 - Boton para agendar visita.
 - Botones para compartir por Facebook, X/Twitter, WhatsApp o email.
+
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Bottom Line" width="100%" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Bottom Line" width="100%" />
 </div>
 
 
@@ -112,8 +118,9 @@ Ejemplo:
 ```text
 agendar.html?property=3
 ```
+
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Bottom Line" width="100%" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Bottom Line" width="100%" />
 </div>
 
 
@@ -155,8 +162,9 @@ npm run build
 ```bash
 npm run preview
 ```
+
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Bottom Line" width="100%" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Bottom Line" width="100%" />
 </div>
 
 
@@ -185,8 +193,9 @@ Ejemplo basico de una propiedad:
 ```
 
 > Importante: cada propiedad debe tener un `id` unico para que la navegacion al detalle y el formulario funcionen correctamente.
+
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Bottom Line" width="100%" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Bottom Line" width="100%" />
 </div>
 
 
@@ -197,8 +206,9 @@ Ejemplo basico de una propiedad:
 | `index.html` | Inicio del sitio y catalogo de propiedades |
 | `detalle.html` | Informacion detallada de una propiedad |
 | `agendar.html` | Formulario para programar una visita |
+
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Bottom Line" width="100%" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Bottom Line" width="100%" />
 </div>
 
 
@@ -211,23 +221,26 @@ Ejemplo basico de una propiedad:
 - Anadir panel administrativo para gestionar inmuebles.
 - Optimizar imagenes locales para mejorar el rendimiento.
 - Corregir textos con caracteres especiales si se detectan problemas de codificacion.
+
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Bottom Line" width="100%" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Bottom Line" width="100%" />
 </div>
 
 
 ## Autor
 
 Proyecto creado como una propuesta web para una inmobiliaria en Cartagena de Indias, Colombia.
+
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Bottom Line" width="100%" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Bottom Line" width="100%" />
 </div>
 
 
 ## Licencia
 
 Este proyecto puede adaptarse libremente para fines educativos, personales o comerciales segun las necesidades tus necesidades, siempre y cuando se mantenga la atribucion al autor original 🤙.
+
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Bottom Line" width="100%" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" alt="Bottom Line" width="100%" />
 </div>
 
